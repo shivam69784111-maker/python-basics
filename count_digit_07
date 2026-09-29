@@ -1,0 +1,7 @@
+def count_digits(n):
+    count=0
+    while n>0:
+        count = count+1
+        n=n//10
+    return count
+print(count_digits(87846647608888888888888888813408764))
